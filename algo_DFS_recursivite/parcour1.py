@@ -4,8 +4,6 @@ import time
 import os
 import copy
 
-# size_x, size_y = [int(x) for x in input().split()]
-# labyrinthe = [ [c for c in input()] for i in range(size_y) ]
 size_input = input("") # two numbers awaited
 
 size_x, size_y = size_input.split()
